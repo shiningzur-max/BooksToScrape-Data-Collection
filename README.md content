@@ -1,0 +1,36 @@
+# 📚 1000 Books Web Scraping Project
+
+This project scrapes **1000 books** from the practice website:  
+**http://books.toscrape.com**
+
+### What data was collected?
+- Book Title
+- Price (in £)
+- Star Rating (One ★ to Five ★★★★★)
+- Availability (In stock or not)
+- Book Cover Image URL
+
+### Tools / Libraries used
+- requests
+- BeautifulSoup (bs4)
+- pandas
+
+### Files in this repository
+| File name                        | Description                              |
+|----------------------------------|------------------------------------------|
+| `book_to_scraped.ipynb`          | Jupyter notebook with full scraping code |
+| `1000_books_50page_info.xls`     | Final scraped data (Excel file)          |
+| `1000_books_50page_info.csv`     | Final scraped data (CSV file)            |
+
+### Website used for practice
+→ http://books.toscrape.com/catalogue/page-1.html  
+(This is a free dummy bookstore made only for learning web scraping)
+
+### Important Note
+This project is made **only for learning and practice**.  
+I do **not** use this data for any commercial purpose.
+
+---
+
+Made with ❤️ for learning web scraping in Python  
+Last updated: February 2025
